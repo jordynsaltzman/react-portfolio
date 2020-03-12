@@ -1,0 +1,132 @@
+.homeContainer {
+  background-color: black;
+  width: 100%;
+  border-top: 40px rgb(226, 150, 186) solid;
+  border-bottom: 40px rgb(226, 150, 186) solid;
+  border-right: 40px rgb(226, 150, 186) solid;
+  color: rgb(226, 150, 186);
+  font-family: "Black Han Sans", sans-serif;
+  padding: 40px;
+}
+
+.title {
+  text-align: left;
+  font-size: 70px;
+  text-transform: uppercase;
+  font-weight: 100;
+}
+
+:root {
+  --mainColor: rgb(226, 150, 186);
+}
+
+.learnMore {
+  /* font-weight: bold; */
+  font-weight: lighter;
+  color: black;
+  -webkit-text-stroke: 1px rgb(226, 150, 186);
+  font-size: 24px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.learnMore:hover {
+  color: rgb(226, 150, 186);
+  -webkit-text-stroke: 0px;
+}
+
+@keyframes arrowMoveLeft {
+  0% {
+    right: -15px;
+    opacity: 0.1;
+  }
+  50% {
+    right: 0px;
+    opacity: 1;
+  }
+  100% {
+    right: -15px;
+    opacity: 0.1;
+  }
+}
+
+@keyframes arrowMoveRight {
+  0% {
+    left: -15px;
+    opacity: 0.1;
+  }
+  50% {
+    left: 0px;
+    opacity: 1;
+  }
+  100% {
+    left: -15px;
+    opacity: 0.1;
+  }
+}
+
+.fa-arrow-left {
+  position: relative;
+  animation: arrowMoveLeft 1.4s infinite;
+  color: rgb(226, 150, 186);
+  -webkit-text-stroke: 0px;
+}
+
+.fa-arrow-right {
+  position: relative;
+  animation: arrowMoveRight 1.4s infinite;
+  color: rgb(226, 150, 186);
+  -webkit-text-stroke: 0px;
+}
+
+/* Styling about page */
+.aboutTitleDiv {
+  width: 50%;
+  float: left;
+  text-align: center;
+}
+.aboutTitle {
+  margin-bottom: 10px;
+}
+
+.bodyText {
+  width: 50%;
+  float: right;
+}
+
+.bodyText p {
+  line-height: 2em;
+  font-family: "Nanum Gothic", sans-serif;
+  margin: 40px;
+}
+
+.bodyLink {
+  text-decoration: none;
+  background: linear-gradient(
+    to bottom,
+    rgb(226, 150, 186) 0%,
+    rgb(226, 150, 186) 100%
+  );
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+  background-size: 4px 4px;
+  text-decoration: none;
+  transition: background-size 0.3s;
+  padding: 4px 0px;
+  /* border-bottom: rgb(226, 150, 186) solid 3px; */
+  color: rgb(226, 150, 186);
+}
+
+.bodyLink:hover {
+  background-size: 4px 50px;
+  color: black;
+  font-weight: bold;
+}
+
+.headshot {
+  height: 300px;
+  /* border-radius: 5px; */
+  z-index: 1;
+  position: relative;
+  padding: 10px;
+}

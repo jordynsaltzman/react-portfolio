@@ -1,0 +1,33 @@
+:root {
+  --sidebar-flex: 1.5;
+  --condiv-flex: 6;
+  --fontsize-p: 1.2rem;
+  --fontsize-nav: 1.6rem;
+  --typing-font: 3rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  display: flex;
+  width: 100vw;
+  min-height: 100vh;
+}
+/* .condiv class is for the right side content container*/
+.condiv {
+  padding: 100px;
+  background-color: #f4f5f9;
+  flex: var(--condiv-flex);
+}
+
+nav {
+  padding: 40px;
+  flex: var(--sidebar-flex);
+  background-color: rgb(226, 150, 186);
+  font-family: "Black Han Sans", sans-serif;
+  text-transform: uppercase;
+  /* background: linear-gradient(180deg, rgb(226, 150, 186) 50%, black 80%); */
+}

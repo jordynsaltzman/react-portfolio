@@ -1,6 +1,17 @@
 :root {
   --mainColor: black;
 }
+
+.homeContainer {
+  background-color: black;
+  width: 100%;
+  border-top: 40px rgb(226, 150, 186) solid;
+  border-bottom: 40px rgb(226, 150, 186) solid;
+  border-right: 40px rgb(226, 150, 186) solid;
+  color: rgb(226, 150, 186);
+  font-family: "Black Han Sans", sans-serif;
+  padding: 40px;
+}
 nav {
   padding-top: 100px;
 }
@@ -25,6 +36,7 @@ nav {
   color: transparent;
   -webkit-text-stroke: 2px var(--mainColor);
   border-bottom-style: double;
+  text-decoration: none;
 }
 
 @supports not (-webkit-text-stroke: 2px black) {

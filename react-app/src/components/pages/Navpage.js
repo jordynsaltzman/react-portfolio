@@ -1,10 +1,12 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import "./building.css";
+import "../building_components/building.css";
+import "./pages.css";
+import Container from "../building_components/Container";
 
-const Navbar = () => {
+const Navpage = () => {
   return (
-    <nav>
+    <div className="navpageContainer">
       <div className="row h-100">
         <div className="col-md-12 my-auto">
           <div className="navItemDiv">
@@ -59,7 +61,7 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-    </nav>
+    </div>
   );
 };
-export default Navbar;
+export default Navpage;

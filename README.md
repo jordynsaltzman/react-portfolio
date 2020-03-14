@@ -1,6 +1,6 @@
 # React Portfolio
 
-Recreating my developer portfolio using React
+Recreating my developer portfolio using React. Work in progress.
 
 ## Preview
 

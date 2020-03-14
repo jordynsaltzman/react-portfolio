@@ -1,11 +1,15 @@
 # React Portfolio
+
 Recreating my developer portfolio using React
 
-## Preview 
+## Preview
+
+![screenshot](./react-app/public/assets/images/screenshot1.JPG)
+![screenshot](./react-app/public/assets/images/screenshot2.JPG)
 
 ## Description
 
-## Usage 
+## Usage
 
 ## License
 

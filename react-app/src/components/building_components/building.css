@@ -14,6 +14,17 @@
   font-family: "Black Han Sans", sans-serif;
   padding: 40px;
 }
+
+.class {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow-x: hidden;
+  font-family: "Black Han Sans", sans-serif;
+  bottom: 0;
+  top: 0;
+}
+
 nav {
   padding-top: 100px;
 }

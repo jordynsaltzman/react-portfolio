@@ -2,11 +2,10 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import "../building_components/building.css";
 import "./pages.css";
-import Container from "../building_components/Container";
 
-const Navpage = props => {
+const Navpage = () => {
   return (
-    <div className="navpageContainer" id={props.id}>
+    <div className="navpageContainer">
       <div className="row h-100">
         <div className="col-md-12 my-auto">
           <div className="navItemDiv">

@@ -1,22 +1,12 @@
 .navpageContainer {
   width: 100%;
+  height: 100%;
   background-color: rgb(240, 164, 199);
   border: #222 solid 40px;
   text-transform: uppercase;
   color: rgb(240, 164, 199);
   font-family: "Black Han Sans", sans-serif;
   padding: 40px;
-  /* trying to do navpage thing */
-  /* z-index: 1;
-  position: fixed;
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 0; */
-}
-
-#inactive {
-  display: none;
 }
 
 .title {
@@ -40,12 +30,25 @@
   right: 5px;
 }
 
+.fa-times {
+  color: #222;
+  display: none;
+  float: right;
+  font-size: 28px;
+  position: absolute;
+  top: 45px;
+  right: 45px;
+}
+
 .fa-bars:hover {
   color: rgb(240, 164, 199);
 }
 
+.fa-times:hover {
+  color: #55ae95;
+}
+
 .learnMore {
-  /* font-weight: bold; */
   font-weight: lighter;
   color: #222;
   -webkit-text-stroke: 1px #55ae95;
@@ -93,7 +96,6 @@
 .fa-arrow-left {
   position: relative;
   animation: arrowMoveLeft 1.4s infinite;
-  /* color: rgb(240, 164, 199); */
   color: #55ae95;
   -webkit-text-stroke: 0px;
 }
@@ -112,7 +114,6 @@
 }
 
 .bodyText {
-  /* width: 50%; */
   float: right;
   padding: 20px;
   line-height: 1.5em;
@@ -120,7 +121,6 @@
 }
 .bodyText p {
   margin-bottom: 30px;
-  font-weight: bold;
 }
 
 .bodyLink {
@@ -132,7 +132,6 @@
   text-decoration: none;
   transition: background-size 0.2s;
   padding: 4px 0px;
-  /* border-bottom: rgb(226, 150, 186) solid 3px; */
   color: #55ae95;
 }
 
@@ -143,9 +142,6 @@
 
 .headshot {
   height: 300px;
-  /* border-radius: 5px; */
-  /* z-index: 1;
-  position: relative; */
   padding: 10px;
 }
 
@@ -195,14 +191,12 @@ li {
     border: 40px rgb(240, 164, 199) solid;
     position: relative;
   }
-  .fa-bars {
+  .fa-bars,
+  .fa-times {
     display: block;
-    /* position: absolute;
-    top: 5;
-    right: 3; */
   }
   .title {
-    font-size: 40px;
+    font-size: 38px;
   }
   .headshot {
     height: 200px;
@@ -245,4 +239,10 @@ li {
 .formLabel {
   text-transform: uppercase;
   font-size: 24px;
+}
+
+/* styling projects page */
+
+.carousel {
+  height: 100vh;
 }

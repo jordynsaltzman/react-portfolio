@@ -1,14 +1,16 @@
 :root {
-  --mainColor: black;
+  --mainColor: #222;
 }
 
 .homeContainer {
-  background-color: black;
+  background-color: #222;
   width: 100%;
-  border-top: 40px rgb(226, 150, 186) solid;
-  border-bottom: 40px rgb(226, 150, 186) solid;
-  border-right: 40px rgb(226, 150, 186) solid;
-  color: rgb(226, 150, 186);
+  /* maybe need this maybe not */
+  overflow-x: hidden;
+  border-top: 40px rgb(240, 164, 199) solid;
+  border-bottom: 40px rgb(240, 164, 199) solid;
+  border-right: 40px rgb(240, 164, 199) solid;
+  color: rgb(240, 164, 199);
   font-family: "Black Han Sans", sans-serif;
   padding: 40px;
 }
@@ -24,9 +26,9 @@ nav {
 
 .navItem {
   /* font-weight: bold; */
-  color: black;
+  color: #222;
   font-size: 24px;
-  border-bottom: 5px solid black;
+  border-bottom: 5px solid #222;
   padding-bottom: 0.1em;
   text-decoration: none;
 }
@@ -39,11 +41,15 @@ nav {
   text-decoration: none;
 }
 
-@supports not (-webkit-text-stroke: 2px black) {
+@supports not (-webkit-text-stroke: 2px #222) {
   .navItem:hover,
   .navbar__link--active {
     text-shadow: 3px 3px 0 var(--mainColor), -1px -1px 0 var(--mainColor),
       1px -1px 0 var(--mainColor), -1px 1px 0 var(--mainColor),
       1px 1px 0 var(--mainColor);
   }
+}
+
+.navbar__link--active {
+  color: #55ae95;
 }

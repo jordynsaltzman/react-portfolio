@@ -32,7 +32,9 @@ const About = () => {
             solving, design, and abstract thinking.
           </p>
           <a className="learnMore" href="/projects">
-            <h3>View my work</h3>
+            <h3>
+              <i className="fa fa-arrow-right"></i>View my work
+            </h3>
           </a>
         </div>
       </div>

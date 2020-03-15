@@ -4,9 +4,9 @@ import "../building_components/building.css";
 import "./pages.css";
 import Container from "../building_components/Container";
 
-const Navpage = () => {
+const Navpage = props => {
   return (
-    <div className="navpageContainer">
+    <div className="navpageContainer" id={props.id}>
       <div className="row h-100">
         <div className="col-md-12 my-auto">
           <div className="navItemDiv">

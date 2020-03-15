@@ -35,9 +35,8 @@ a:hover {
 nav {
   padding: 30px;
   flex: var(--sidebar-flex);
-  background-color: rgb(226, 150, 186);
+  background-color: rgb(240, 164, 199);
   font-family: "Black Han Sans", sans-serif;
-
   text-transform: uppercase;
   /* background: linear-gradient(180deg, rgb(226, 150, 186) 50%, black 80%); */
 }

@@ -4,12 +4,19 @@ Recreating my developer portfolio using React. Work in progress.
 
 ## Preview
 
-![screenshot](./react-app/public/assets/images/screenshot1.JPG)
-![screenshot](./react-app/public/assets/images/screenshot2.JPG)
+![screenshot](./public/assets/images/screenshot1.JPG)
+![screenshot](./public/assets/images/screenshot2.JPG)
 
 ## Description
 
+      For my updated portfolio, I wanted to create a minimalist design with a retro feel. I initially did all of the styling using my own CSS in order to acheive the specific layout I desired. However, I faced some issues with mobile responsiveness and eventually incorporated Bootstrap as a framework and media queries as well. I really enjoyed creating reusable components in React, and found it much more efficient than templating engines such as Handlebars used in previous projects. I also enjoyed using state and turnary operators for conditional rendering.
+
 ## Usage
+
+Download or `git clone` this repo, and then run the following commands from the terminal:
+
+- `npm install`
+- `npm start`
 
 ## License
 

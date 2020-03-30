@@ -11,7 +11,7 @@ const Container = props => {
 
   React.useEffect(() => {
     function handleResize() {
-      console.log("resized to: ", window.innerWidth, "x", window.innerHeight);
+      console.log("resized to:  ", window.innerWidth, "x", window.innerHeight);
       setState({ navbarOpen: false });
     }
     window.addEventListener("resize", handleResize);

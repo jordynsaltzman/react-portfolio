@@ -5,14 +5,15 @@
   border: #222 solid 40px;
   text-transform: uppercase;
   color: rgb(240, 164, 199);
-  font-family: "Black Han Sans", sans-serif;
+  font-family: "Rubik Mono One", sans-serif;
   padding: 40px;
 }
 
 .title {
   text-align: left;
-  font-size: 70px;
+  font-size: 60px;
   text-transform: uppercase;
+  font-family: "Rubik Mono One", sans-serif;
   font-weight: 100;
 }
 .titleName {
@@ -58,10 +59,10 @@
   font-weight: lighter;
   color: #222;
   -webkit-text-stroke: 1px #55ae95;
-  font-size: 24px;
+  font-size: 20px;
   text-transform: uppercase;
   text-decoration: none;
-  font-family: "Black Han Sans", sans-serif;
+  font-family: "Rubik Mono One", sans-serif;
 }
 
 .learnMore:hover {
@@ -121,11 +122,10 @@
 }
 
 .bodyText {
-  float: right;
   padding: 20px;
   line-height: 1.5em;
-  font-family: "Nanum Gothic", sans-serif;
-  font-size: 14px;
+  font-family: "Roboto Mono", monospace;
+  font-size: 12px;
 }
 .bodyText p {
   padding: 0px 0px 0px 20px;
@@ -140,7 +140,7 @@
   background-size: 2px 2px;
   text-decoration: none;
   transition: background-size 0.2s;
-  padding: 4px 0px;
+  padding: 2px 0px;
   color: #55ae95;
 }
 
@@ -152,6 +152,30 @@
 .headshot {
   height: 300px;
   padding: 10px;
+}
+
+.floating {
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes floating {
+  from {
+    filter: drop-shadow (0 5px 15px 0px rgba(0, 0, 0, 0.6));
+    transform: translate(0, 0px);
+  }
+  65% {
+    filter: drop-shadow(0 25px 15px 0px rgba(0, 0, 0, 0.2));
+
+    transform: translate(0, 5px);
+  }
+  to {
+    filter: drop-shadow(0 5px 15px 0px rgba(0, 0, 0, 0.6));
+
+    transform: translate(0, -0px);
+  }
 }
 
 /* styling experience page */
@@ -166,7 +190,7 @@
   padding: 10px 10px;
   margin: 0;
 
-  border: 5px rgb(240, 164, 199) solid;
+  border: 4px rgb(240, 164, 199) solid;
 }
 
 .resumeDownload:hover {
@@ -177,7 +201,7 @@
   text-transform: uppercase;
   color: #55ae95;
   font-size: 30px;
-  border-bottom: solid 5px rgb(240, 164, 199);
+  border-bottom: solid 4px rgb(240, 164, 199);
 }
 
 .listSubtitle {
@@ -187,8 +211,9 @@
 
 li {
   margin-left: 18px;
-  font-size: 14px;
-  font-family: "Nanum Gothic", sans-serif;
+  font-size: 12px;
+  /* font-family: "Nanum Gothic", sans-serif; */
+  font-family: "Roboto Mono", monospace;
 }
 
 .mySkills,
@@ -238,14 +263,17 @@ li {
     display: block;
   }
   .title {
-    font-size: 38px;
+    font-size: 30px;
+  }
+  .learnMore {
+    font-size: 14px;
   }
   .headshot {
     height: 200px;
   }
   .bodyText p,
   li {
-    font-size: 13px;
+    font-size: 11px;
   }
   .bodyText p {
     padding: 0px;
@@ -271,22 +299,62 @@ li {
 
 .formInput,
 .formTextarea {
+  width: 100%;
+  /* font-family: "Nanum Gothic", sans-serif; */
+  font-family: monospace;
   background-color: #222;
-  border: #222;
-  text-transform: uppercase;
+  font-size: 14px;
+  color: #55ae95;
+  border: rgb(240, 164, 199) 3px solid;
+  padding: 5px;
+  margin-bottom: 20px;
 }
 
-.formInput:hover,
 .formInput:active,
-.formInput:focus {
-  border: none;
+.formInput:focus,
+.formTextarea:focus,
+.formTextarea:active {
+  background-color: #222 !important;
+  outline: none;
   box-shadow: none;
   outline-color: #222;
+  border: #55ae95 3px solid;
 }
 
 .formLabel {
   text-transform: uppercase;
   font-size: 24px;
+  margin: 0;
+}
+
+.formBtn {
+  background-color: transparent;
+  border: none;
+}
+
+.getInTouch {
+  border: none;
+  font-size: 50px;
+}
+
+input:-internal-autofill-selected {
+  background-color: #222 !important;
+  color: rgb(240, 164, 199) !important;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  border: rgb(240, 164, 199) 3px solid;
+  -webkit-text-fill-color: #55ae95;
+  -webkit-box-shadow: 0 0 0px 1000px #222 inset;
+  transition: background-color 5000s ease-in-out 0s;
 }
 
 /* styling projects page */

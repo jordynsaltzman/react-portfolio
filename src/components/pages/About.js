@@ -1,17 +1,19 @@
 import React from "react";
 import "./pages.css";
-import Headshot from "../../images/hexpic.png";
+import Headshot from "../../images/hexpic2.png";
 import Container from "../building_components/Container";
 
 const About = () => {
   return (
     <Container>
-      <div className="row">
+      <div className="row aboutRow">
         <div className="col-md-4 headshotDiv">
-          <img src={Headshot} className="headshot" alt="Jordyn Saltzman"></img>
-          {/* might need to use a Link component instead of a tags */}
+          <img
+            src={Headshot}
+            className="headshot floating"
+            alt="Jordyn Saltzman"
+          ></img>
         </div>
-
         <div className="col-md-8 bodyText">
           <p>
             <strong>
@@ -32,9 +34,7 @@ const About = () => {
             solving, design, and abstract thinking.
           </p>
           <a className="learnMore" href="/projects">
-            <h3>
-              <i className="fa fa-arrow-right"></i>View my work
-            </h3>
+            <h3>View my work</h3>
           </a>
         </div>
       </div>

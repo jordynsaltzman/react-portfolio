@@ -125,7 +125,7 @@
   padding: 20px;
   line-height: 1.5em;
   font-family: "Roboto Mono", monospace;
-  font-size: 12px;
+  font-size: 13px;
 }
 .bodyText p {
   padding: 0px 0px 0px 20px;
@@ -211,7 +211,7 @@
 
 li {
   margin-left: 18px;
-  font-size: 12px;
+  font-size: 13px;
   /* font-family: "Nanum Gothic", sans-serif; */
   font-family: "Roboto Mono", monospace;
 }
@@ -300,13 +300,15 @@ li {
 .formInput,
 .formTextarea {
   width: 100%;
-  /* font-family: "Nanum Gothic", sans-serif; */
-  font-family: monospace;
+  font-family: "Roboto Mono", monospace;
   background-color: #222;
   font-size: 14px;
   color: #55ae95;
   border: rgb(240, 164, 199) 3px solid;
   padding: 5px;
+}
+
+.formInput {
   margin-bottom: 20px;
 }
 
@@ -330,6 +332,7 @@ li {
 .formBtn {
   background-color: transparent;
   border: none;
+  font-size: 24px;
 }
 
 .getInTouch {
@@ -357,6 +360,22 @@ select:-webkit-autofill:focus {
   transition: background-color 5000s ease-in-out 0s;
 }
 
+.contactIcon {
+  font-size: 40px !important;
+  color: #55ae95;
+  padding: 5px 20px !important;
+}
+
+.contactIcon:hover {
+  color: rgb(240, 164, 199);
+}
+
+.contactLinks {
+  font-family: "Roboto Mono", monospace;
+  font-size: 14px;
+  padding-top: 70px;
+  text-align: center;
+}
 /* styling projects page */
 
 .carousel {

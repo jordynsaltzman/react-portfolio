@@ -12,13 +12,13 @@ const Project = props => {
         <div className="col-md-12 uncenter projText">
           <p>{props.description}</p>
           <p>{props.projDetails}</p>
-          <img src={props.projImgRef} />
+          <img src={props.projImgRef} alt="Project Screenshot" />
         </div>
         <div className="col-md-12 center">
-          <a href={props.githubLink}>
+          <a href={props.githubLink} target="_blank" rel="noopener noreferrer">
             <i className="fab fa-github"></i>
           </a>
-          <a href={props.websiteLink}>
+          <a href={props.websiteLink} target="_blank" rel="noopener noreferrer">
             <i className="fas fa-link"></i>
           </a>
         </div>

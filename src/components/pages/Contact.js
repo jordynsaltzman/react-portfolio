@@ -32,7 +32,7 @@ export default class MyForm extends React.Component {
               action="https://formspree.io/xdozyypq"
               method="POST"
             >
-              <label className="formLabel" for="name">
+              <label className="formLabel" htmlFor="name">
                 name
               </label>
               <br />
@@ -44,7 +44,7 @@ export default class MyForm extends React.Component {
                 required
               ></input>
               <br />
-              <label className="formLabel" for="email">
+              <label className="formLabel" htmlFor="email">
                 email
               </label>
               <br />
@@ -56,7 +56,7 @@ export default class MyForm extends React.Component {
                 required
               ></input>
               <br />
-              <label className="formLabel" for="message">
+              <label className="formLabel" htmlFor="message">
                 Message
               </label>
               <br />
@@ -77,7 +77,26 @@ export default class MyForm extends React.Component {
               {status === "ERROR" && <p>Oops! There was an error.</p>}
             </form>
           </div>
-          <div className="col-md-6">Hate contact forms?</div>
+          <div className="col-md-6 contactLinks">
+            <p>Hate contact forms? Find me here:</p>{" "}
+            <a
+              href="https://github.com/jordynsaltzman"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="fab fa-github contactIcon"></i>
+            </a>
+            <a href="mailto:jordyn.saltzman@gmail.com">
+              <i className="fas fa-envelope contactIcon"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/jordynsaltzman/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="fab fa-linkedin contactIcon"></i>
+            </a>
+          </div>
         </div>
       </Container>
     );

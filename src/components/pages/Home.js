@@ -4,10 +4,10 @@ import Container from "../building_components/Container";
 import { useDencrypt } from "use-dencrypt-effect";
 
 const Home = () => {
-  const values = ["Jordyn Saltzman."];
   const { result, dencrypt } = useDencrypt();
 
   useEffect(() => {
+    const values = ["Jordyn Saltzman."];
     let i = 0;
 
     const action = setInterval(() => {
@@ -17,7 +17,7 @@ const Home = () => {
     }, 500);
 
     return () => clearInterval(action);
-  }, []);
+  }, [dencrypt]);
 
   return (
     <Container>

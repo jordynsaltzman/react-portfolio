@@ -84,17 +84,17 @@ export default class MyForm extends React.Component {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <i className="fab fa-github contactIcon"></i>
+              <i className="fab fa-github contactIcon floating1"></i>
             </a>
             <a href="mailto:jordyn.saltzman@gmail.com">
-              <i className="fas fa-envelope contactIcon"></i>
+              <i className="fas fa-envelope contactIcon floating2"></i>
             </a>
             <a
               href="https://www.linkedin.com/in/jordynsaltzman/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <i className="fab fa-linkedin contactIcon"></i>
+              <i className="fab fa-linkedin contactIcon floating3"></i>
             </a>
           </div>
         </div>

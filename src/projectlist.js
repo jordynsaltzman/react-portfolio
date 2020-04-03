@@ -29,6 +29,26 @@ const projectlist = [
   },
   {
     projectId: 3,
+    projectName: "Google Books Search",
+    projectDescription:
+      "A React-based Google Books Search web application, where users can search for and save books of interest. ",
+    projDetails:
+      "This assignment required us to create React components, work with helper/util functions, and utilize React lifecycle methods to query and display books based on user searches. I also used Node, Express and MongoDB so that users can save books to review or purchase later. This is a SPA (Single Page Application) that uses react-router-dom to navigate, hide and show React components without changing the route within Express. On the 'Search' page, the user can search for books via the Google Books API, which will render on the page. The user has the option to view a book, bringing them to the book on Google Books, or save a book, saving it to the Mongo database. The 'Reading List' page renders all books saved to the Mongo database. The user has an option to view the book, bringing them to the book on Google Books, or delete a book, removing it from the Mongo database. For the UI, I used a muted 'library-esque' color palatte and created a responsive layout with Bootstrap.",
+    githubLink: "https://github.com/jordynsaltzman/google-books-search",
+    websiteLink: "https://googlebookssearchreact1.herokuapp.com/",
+  },
+  {
+    projectId: 4,
+    projectName: "Employee Directory",
+    projectDescription:
+      "An employee directory app built with React, created for The Coding Bootcamp at Johns Hopkins Engineering. Users can use this application to explore an employee roster through filtering, sorting, and searching.",
+    projDetails:
+      "This assignment required us to break up our application's UI into components, manage component state, and respond to user events. It gave me experience using React hooks such as useState and useEffect, and I also got additional practice using JavaScript array methods like map and filter. I originally wanted to generate my employee data from the Random User Generator API, but unfortunately the site's server was down when I was working on it and had to resort to using my own data from a JSON file. I still wanted to incorporate an API, so I ended up getting 'headshots' from the Adorable Avatars API.",
+    githubLink: "https://github.com/jordynsaltzman/employee-directory",
+    websiteLink: "https://jordyns-budget-tracker.herokuapp.com/",
+  },
+  {
+    projectId: 5,
     projectName: "Budget Tracker",
     projectDescription:
       "A Progressive Web Application to track your budget, utilizing MongoDB, IndexedDB, Cache API, and Service Workers to provide an offline experience for the application.     ",
@@ -38,7 +58,7 @@ const projectlist = [
     websiteLink: "https://jordyns-budget-tracker.herokuapp.com/",
   },
   {
-    projectId: 4,
+    projectId: 6,
     projectName: "Sandwich Logger",
     projImgRef: "SandwichLogger",
     projImg: "sandwich_logger.JPG",
@@ -48,18 +68,18 @@ const projectlist = [
     websiteLink: "https://sandwich-logger.herokuapp.com/",
   },
   {
-    projectId: 5,
+    projectId: 7,
     projectName: "Fitness Tracker",
     projImg: "fitness_tracker.JPG",
     projectDescription:
       "This application allows users to track their workouts so that they are more likely to acheive their fitness goals. It uses a Mongo database with a Mongoose schema and handles routes with Express.",
     projDetails:
-      "When the user loads the page, they are given the option to create a new workout, or continue with their last workout. The user is able to add exercises to a previous workout plan, add new exercises to a new workout plan, and view the combined weight of multiple exercises on the stats page.",
+      "For this assignment, we were provided with the frondend code (some of which was broken) and were required to write code to connect to a NoSQL database. I created the model used in the database based on the provided seed file, then wrote code for the routes based off of the methods used in the frontend api.js file. App intended functionality was slightly unclear, but it is working as intended (although not how I would design this app.) When the user loads the page, they are given the option to create a new workout, or continue with their last workout. The user is able to add exercises to a previous workout plan, add new exercises to a new workout plan, and view the combined weight of multiple exercises on the stats page.",
     githubLink: "https://github.com/jordynsaltzman/fitness-tracker",
     websiteLink: "https://jordyns-fitness-tracker.herokuapp.com/",
   },
   {
-    projectId: 6,
+    projectId: 8,
     projectName: "Profile Generator",
     projImg: "dev_profile_gen.JPG",
     projectDescription:
@@ -67,7 +87,7 @@ const projectlist = [
     githubLink: "https://github.com/jordynsaltzman/developer-profile-generator",
   },
   {
-    projectId: 7,
+    projectId: 9,
     projectName: "Template Engine",
     projImg: "template_engine.JPG",
     projectDescription:
@@ -75,7 +95,7 @@ const projectlist = [
     githubLink: "https://github.com/jordynsaltzman/template-engine",
   },
   {
-    projectId: 8,
+    projectId: 10,
     projectName: "Note Taker",
     projectDescription:
       "This is a simple note taking application, which uses an express backend to save, retrieve, and delete note data from a JSON file.",
@@ -83,7 +103,7 @@ const projectlist = [
     websiteLink: "https://jordyns-note-taker.herokuapp.com/",
   },
   {
-    projectId: 9,
+    projectId: 11,
     projectName: "React Portfolio",
     projectDescription:
       "Designed and built my developer portfolio using React. No screenshot necessary!",

@@ -21,11 +21,12 @@ const About = () => {
             </strong>
             Since October 2019 when I began my journey as a developer, I have
             grown extremely passionate about code and aspire to someday be a
-            great full-stack engineer. While I am analytical by nature, I also
-            have a defined sense of aesthetic and love to build unique and
-            engaging web applications. I am excited to be doing what I love, and
-            spend each day strengthening my skills, learning new techniques, and
-            devising creative solutions to problems.
+            great full-stack engineer. While I am analytical by nature and enjoy
+            working in the backend, I also have a defined sense of aesthetic and
+            love to build unique and visually engaging web applications. I am
+            excited to be doing what I love, and spend each day strengthening my
+            skills, learning new techniques, and devising creative solutions to
+            problems.
           </p>
           <p>
             I have just completed a 24-week certification course at{" "}

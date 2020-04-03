@@ -7,7 +7,7 @@ export default class MyForm extends React.Component {
     super(props);
     this.submitForm = this.submitForm.bind(this);
     this.state = {
-      status: ""
+      status: "",
     };
   }
 
@@ -18,9 +18,9 @@ export default class MyForm extends React.Component {
         <div className="row">
           <div className="col-md-12">
             <h1 className="listTitle getInTouch">Reach Out</h1>
-            <p className="bodyText">
-              Interested in working together, or have feedback about this
-              website? Give me a shout!
+            <p className="contactSubtitle">
+              If you are interested in working together or have feedback about
+              this website, give me a shout!
             </p>
           </div>
         </div>
@@ -68,13 +68,16 @@ export default class MyForm extends React.Component {
                 required
               ></textarea>
               <br />
-
+              <div className="submitBtnDiv">
               {status === "SUCCESS" ? (
-                <p>Thanks, I will be in touch shortly!</p>
+                <p style={{ color: "#55ae95" }}>
+                  Thanks, I will be in touch shortly!
+                </p>
               ) : (
                 <button className="learnMore formBtn">Submit</button>
               )}
               {status === "ERROR" && <p>Oops! There was an error.</p>}
+              </div>
             </form>
           </div>
           <div className="col-md-6 contactLinks">

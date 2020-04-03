@@ -31,6 +31,8 @@
   position: absolute;
   top: -35px;
   right: -35px;
+  -webkit-transition: color 0.4s ease-in-out;
+  transition: color 0.4s ease-in-out;
 }
 
 .navIcon {
@@ -44,6 +46,8 @@
   display: none;
   float: right;
   font-size: 28px;
+  -webkit-transition: color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
   /* position: absolute;
   top: 45px;
   right: 45px; */
@@ -334,7 +338,8 @@ li {
   .fa-times {
     display: block;
   }
-  .title {
+  .title,
+  .getInTouch {
     font-size: 30px;
   }
   .learnMore {
@@ -344,8 +349,9 @@ li {
     height: 200px;
   }
   .bodyText p,
-  li {
-    font-size: 11px;
+  li,
+  .contactSubtitle {
+    font-size: 12px;
   }
   .bodyText p {
     padding: 0px;
@@ -367,6 +373,10 @@ li {
     font-size: 22px;
     margin-bottom: 20px;
   }
+  .contactIcon {
+    font-size: 30px !important;
+    padding: 3px 15px !important;
+  }
 }
 
 .formInput,
@@ -378,6 +388,9 @@ li {
   color: #55ae95;
   border: rgb(240, 164, 199) 3px solid;
   padding: 5px;
+
+  -webkit-transition: border 0.4s ease-in-out;
+  transition: border 0.4s ease-in-out;
 }
 
 .formInput {
@@ -402,14 +415,19 @@ li {
 }
 
 .formBtn {
+  text-align: right;
   background-color: transparent;
   border: none;
   font-size: 24px;
 }
-
+.submitBtnDiv {
+  text-align: right;
+}
 .getInTouch {
+  text-transform: uppercase;
+  color: #55ae95;
+  font-size: 32px;
   border: none;
-  font-size: 50px;
 }
 
 input:-internal-autofill-selected {
@@ -436,6 +454,8 @@ select:-webkit-autofill:focus {
   font-size: 40px !important;
   color: #55ae95;
   padding: 5px 20px !important;
+  -webkit-transition: color 0.4s ease-in-out;
+  transition: color 0.4s ease-in-out;
 }
 
 .contactIcon:hover {
@@ -444,9 +464,15 @@ select:-webkit-autofill:focus {
 
 .contactLinks {
   font-family: "Roboto Mono", monospace;
-  font-size: 14px;
+  font-size: 13px;
   padding-top: 70px;
   text-align: center;
+}
+
+.contactSubtitle {
+  font-family: "Roboto Mono", monospace;
+  font-size: 13px;
+  padding-bottom: 15px;
 }
 /* styling projects page */
 

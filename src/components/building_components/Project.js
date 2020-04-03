@@ -1,8 +1,7 @@
 import React from "react";
 import "./building.css";
-// import projectlist from "../../projectlist";
 
-const Project = props => {
+const Project = (props) => {
   return (
     <div>
       <div className="row center">
@@ -10,9 +9,10 @@ const Project = props => {
           <h3 className="listTitle">{props.title}</h3>
         </div>
         <div className="col-md-12 uncenter projText">
-          <p>{props.description}</p>
+          <p>
+            <strong>{props.description}</strong>
+          </p>
           <p>{props.projDetails}</p>
-          <img src={props.projImgRef} alt="Project Screenshot" />
         </div>
         <div className="col-md-12 center">
           <a href={props.githubLink} target="_blank" rel="noopener noreferrer">

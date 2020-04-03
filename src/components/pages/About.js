@@ -17,16 +17,15 @@ const About = () => {
         <div className="col-md-8 bodyText">
           <p>
             <strong>
-              I have an insatiable curiosity and love figuring out how things
-              work.{" "}
+              I am naturally inquisitive and enjoy figuring out how things work.{" "}
             </strong>
             Since October 2019 when I began my journey as a developer, I have
-            grown extremely passionate about code and aspire to be a great
-            full-stack engineer. Programming ignites my creative side and
-            inspires the designer in me, while simultaneously satisfying my love
-            of logic problems and abstract thinking. I am excited to be doing
-            what I love, and spend each day strengthening my skills, learning
-            new techniques, and devising creative solutions to problems.
+            grown extremely passionate about code and aspire to someday be a
+            great full-stack engineer. While I am analytical by nature, I also
+            have a defined sense of aesthetic and love to build unique and
+            engaging web applications. I am excited to be doing what I love, and
+            spend each day strengthening my skills, learning new techniques, and
+            devising creative solutions to problems.
           </p>
           <p>
             I have just completed a 24-week certification course at{" "}

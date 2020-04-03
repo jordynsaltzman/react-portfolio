@@ -5,15 +5,15 @@ const projectlist = [
     projectDescription:
       "Recipe app with minimalist design for users to store and share home recipes",
     projDetails:
-      "I created this app with two team members for our second project at The Coding Bootcamp at Johns Hopkins. We had two weeks to design and build a full-stack web application.",
+      "I created this app along with two team members for our second project at The Coding Bootcamp at Johns Hopkins. We had two weeks to design and build a full-stack web application. Our goal was to create an app where users could post home recipes that perhaps were written on notecards or paper, and save all of them to one place. Upon posting the recipe, users can select whether to make them public or private. Users can also search for public recipes posted by other users, and save them to their 'My Stovetop' page. We unfortunately did not achieve the user login functionality within the deadline, so our original vision did not fully come to life. My role on this application was to desing the UI, and I also created the 'Add Recipe' form on which users can recipes to our own API. I also created a working search bar that uses multiple SQL queries to search the database for given keywords. Users can type one or more keywords into the search bar. ",
     githubLink: "https://github.com/JEmnetu/Stovetop",
     websiteLink: "http://stovetop.herokuapp.com/",
   },
   {
     projectId: 1,
-    projectName: "Morgan State Universiy - Alumni App",
+    projectName: "Alumni App",
     projectDescription:
-      "Website to attract millenials to join the alumni chapter learn about upcoming events, begin making donations, and paying membership dues to become a lifetime member of MSU.",
+      "A web application designed to attract millenials to join the Morgan State Univeristy alumni group. Users can host or RSVP to upcoming events, begin making donations, and paying membership dues to become a lifetime member of MSU Alumni.",
     githubLink: "https://github.com/kshep425/ALUM-APP",
     websiteLink: "https://msu-alumni-hoco.herokuapp.com/",
   },
@@ -23,7 +23,7 @@ const projectlist = [
     projectDescription:
       "Cohort Collab is a place where developers of all skill levels can come to learn something new and relax at the same time! With our design we aim to make life a little bit more easier for the developer in all of us!",
     projDetails:
-      "We were given this task to complete as part of Johns Hopkins Coding Bootcamp as a way to test our skills and use everything we have used from day one to put together an application that anyone can use the help better their everyday lives. We came up with the idea to make a one stop hub for developers instead of using google and getting a more generalized overview. The framework of our project lies with Material Design Lite CSS package. https://getmdl.io/started/ There are also a few API's that are being used in the background to support our page. https://api.adzuna.com/v1/api/jobs/us/search/1? - Job search api https://newsapi.org/v2/everything? - news articles API. As with everything this is a work in progress but we wanted to at least show the starting point to our application.",
+      "The goal of this application was to create a simple and easy to use job search application for new web developers. We expanded upon this idea to create a one stop shop for new developers, especially those who have recently completed a Bootcamp, to learn about the latest news in web development, find jobs, or practice their skills with a curated list of coding resources. This was our first project at the Coding Bootcamp at Johns Hopkins Engineering, where we had just finished learning how to make API calls. We designed our application using Material Design Lite as a CSS framework. We used the Adzuna job search API as well as the News API in order to provide the latest news and job information. Due to the time constraint of this assignment, we were not able to acheive our full vision for the application. For example, we envisioned users being able to connect and collaborate with one another through the app, but we had to sacrifice that goal in order to have a fully functional MVP by the deadline.",
     githubLink: "https://github.com/anzook/The-Git-Gud-Team",
     websiteLink: "https://anzook.github.io/The-Git-Gud-Team/",
   },

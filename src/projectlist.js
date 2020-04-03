@@ -43,9 +43,9 @@ const projectlist = [
     projectDescription:
       "An employee directory app built with React, created for The Coding Bootcamp at Johns Hopkins Engineering. Users can use this application to explore an employee roster through filtering, sorting, and searching.",
     projDetails:
-      "This assignment required us to break up our application's UI into components, manage component state, and respond to user events. It gave me experience using React hooks such as useState and useEffect, and I also got additional practice using JavaScript array methods like map and filter. I originally wanted to generate my employee data from the Random User Generator API, but unfortunately the site's server was down when I was working on it and had to resort to using my own data from a JSON file. I still wanted to incorporate an API, so I ended up getting 'headshots' from the Adorable Avatars API.",
+      "This assignment required us to break up our application's UI into components, manage component state, and respond to user events. It gave me experience using React hooks such as useState and useEffect, and I also got additional practice using JavaScript array methods like map and filter. I originally wanted to generate my employee data from the Random User Generator API, but unfortunately the site's server was down when I was working on it and had to resort to using my own data from a JSON file. I still wanted to incorporate an API, so I ended up getting 'headshots' from the Adorable Avatars API. In the future, I plan to add additional sorting methods as well as CRUD capabilities to continue practicing ReactJS.",
     githubLink: "https://github.com/jordynsaltzman/employee-directory",
-    websiteLink: "https://jordyns-budget-tracker.herokuapp.com/",
+    websiteLink: "https://jordyns-employee-directory.herokuapp.com/",
   },
   {
     projectId: 5,

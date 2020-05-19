@@ -1,6 +1,16 @@
 const projectlist = [
   {
     projectId: 0,
+    projectName: "Visitera",
+    projectDescription:
+      "Visitera is a personal travel log application built with a React front-end, a Node/Express backend, and a MongoDB database. It also uses Mapbox Maps SDK to embed a customized map, and a geocoder component to search for places using Mapbox Geocoding API.",
+    projDetails:
+      "I love to travel and wanted a way to keep track of the places I have been. With Visitera, users can double click anywhere on the map and add a new marker with information about their trip. Once added, users can click on their markers to view details that display in a popup. Right now, you are required to enter an API key in order to add travels because I did not want everyone to be able to contribute their data. In the future, I would either like to have different colored markers for each user to add their own travel experiences, each with their own API key, or I will implement user login instead.",
+    githubLink: "https://github.com/jordynsaltzman/visitera/",
+    websiteLink: "https://visitera.now.sh/",
+  },
+  {
+    projectId: 1,
     projectName: "Stovetop",
     projectDescription:
       "Recipe app with minimalist design for users to store and share home recipes",
@@ -10,7 +20,7 @@ const projectlist = [
     websiteLink: "http://stovetop.herokuapp.com/",
   },
   {
-    projectId: 1,
+    projectId: 2,
     projectName: "Alumni App",
     projectDescription:
       "A web application designed to attract millenials to join the Morgan State Univeristy alumni group. Users can host or RSVP to upcoming events, begin making donations, and paying membership dues to become a lifetime member of MSU Alumni.",
@@ -18,7 +28,7 @@ const projectlist = [
     websiteLink: "https://msu-alumni-hoco.herokuapp.com/",
   },
   {
-    projectId: 2,
+    projectId: 3,
     projectName: "Cohort Collab",
     projectDescription:
       "Cohort Collab is a place where developers of all skill levels can come to learn something new and relax at the same time! With our design we aim to make life a little bit more easier for the developer in all of us!",
@@ -28,7 +38,7 @@ const projectlist = [
     websiteLink: "https://anzook.github.io/The-Git-Gud-Team/",
   },
   {
-    projectId: 3,
+    projectId: 4,
     projectName: "Google Books Search",
     projectDescription:
       "A React-based Google Books Search web application, where users can search for and save books of interest. ",
@@ -38,7 +48,7 @@ const projectlist = [
     websiteLink: "https://googlebookssearchreact1.herokuapp.com/",
   },
   {
-    projectId: 4,
+    projectId: 5,
     projectName: "Employee Directory",
     projectDescription:
       "An employee directory app built with React, created for The Coding Bootcamp at Johns Hopkins Engineering. Users can use this application to explore an employee roster through filtering, sorting, and searching.",
@@ -48,7 +58,7 @@ const projectlist = [
     websiteLink: "https://jordyns-employee-directory.herokuapp.com/",
   },
   {
-    projectId: 5,
+    projectId: 6,
     projectName: "Budget Tracker",
     projectDescription:
       "A Progressive Web Application to track your budget, utilizing MongoDB, IndexedDB, Cache API, and Service Workers to provide an offline experience for the application.     ",
@@ -58,7 +68,7 @@ const projectlist = [
     websiteLink: "https://jordyns-budget-tracker.herokuapp.com/",
   },
   {
-    projectId: 6,
+    projectId: 7,
     projectName: "Sandwich Logger",
     projImgRef: "SandwichLogger",
     projImg: "sandwich_logger.JPG",
@@ -68,7 +78,7 @@ const projectlist = [
     websiteLink: "https://sandwich-logger.herokuapp.com/",
   },
   {
-    projectId: 7,
+    projectId: 8,
     projectName: "Fitness Tracker",
     projImg: "fitness_tracker.JPG",
     projectDescription:
@@ -79,7 +89,7 @@ const projectlist = [
     websiteLink: "https://jordyns-fitness-tracker.herokuapp.com/",
   },
   {
-    projectId: 8,
+    projectId: 9,
     projectName: "Profile Generator",
     projImg: "dev_profile_gen.JPG",
     projectDescription:
@@ -87,7 +97,7 @@ const projectlist = [
     githubLink: "https://github.com/jordynsaltzman/developer-profile-generator",
   },
   {
-    projectId: 9,
+    projectId: 10,
     projectName: "Template Engine",
     projImg: "template_engine.JPG",
     projectDescription:
@@ -95,7 +105,7 @@ const projectlist = [
     githubLink: "https://github.com/jordynsaltzman/template-engine",
   },
   {
-    projectId: 10,
+    projectId: 11,
     projectName: "Note Taker",
     projectDescription:
       "This is a simple note taking application, which uses an express backend to save, retrieve, and delete note data from a JSON file.",
@@ -103,7 +113,7 @@ const projectlist = [
     websiteLink: "https://jordyns-note-taker.herokuapp.com/",
   },
   {
-    projectId: 11,
+    projectId: 12,
     projectName: "React Portfolio",
     projectDescription:
       "Designed and built my developer portfolio using React. No screenshot necessary!",
